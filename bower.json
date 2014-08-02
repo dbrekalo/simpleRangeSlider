@@ -1,0 +1,16 @@
+{
+  "name": "simpleRangeSlider",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbrekalo/simpleRangeSlider",
+  "authors": [
+    "Damir Brekalo <dbrekalo@gmail.com>"
+  ],
+  "description": "Lightweight range slider plugin based on jQuery",
+  "main": "dist/simpleRangeSlider.min.js",
+  "keywords": [
+    "range",
+    "slider",
+    "rangeslider"
+  ],
+  "license": "MIT"
+}

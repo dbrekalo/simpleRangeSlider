@@ -134,8 +134,9 @@
             var val = this.options.paddval ? paddNum(this.currentVal, this.maxVal.toString().length ) : this.currentVal;
 
             this.$handle.css({'left': (this.currentPercentage * 100) + '%'});
-            this.$input.val(val).trigger('change');
+            this.$input.val(val);
             this.$valueLabel.html(val + this.labelSufix);
+            this.options.onUpdateView && this.options.onUpdateView(val, this);
 
             return this;
 
